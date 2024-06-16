@@ -59,3 +59,14 @@ body {
 .gutter {
   scrollbar-gutter: stable;
 }
+
+.hover-trigger .play-pause-icon {
+  opacity: 0;
+  transform: translateY(8px);
+  transition: all .2s;
+}
+
+.hover-trigger:hover .play-pause-icon {
+  opacity: 1;
+  transform: translateY(0);
+}

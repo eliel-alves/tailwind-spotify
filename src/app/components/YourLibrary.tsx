@@ -10,8 +10,8 @@ export const YourLibrary = () => {
           <LibraryBig /> Your Library
         </div>
         <div className="flex gap-2">
-          <Plus className="box-content cursor-pointer rounded-full p-1 transition-colors duration-300 hover:bg-zinc-900 hover:text-white" />
-          <ArrowRight className="box-content cursor-pointer rounded-full p-1 transition-colors duration-300 hover:bg-zinc-900 hover:text-white" />
+          <Plus className="box-content cursor-pointer rounded-full p-1 transition-colors duration-300 hover:bg-zinc-900 hover:text-white active:bg-black" />
+          <ArrowRight className="box-content cursor-pointer rounded-full p-1 transition-colors duration-300 hover:bg-zinc-900 hover:text-white active:bg-black" />
         </div>
       </nav>
 

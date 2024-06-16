@@ -12,6 +12,7 @@ const config: Config = {
         'gray-spotify': '#121212',
         'gray-text': '#b3b3b3',
         'green-spotify': '#1ed761',
+        'blue-coldplay': '#060b28',
       },
       fontFamily: {
         custom: ['Circular', 'sans-serif'],
