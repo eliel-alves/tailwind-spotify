@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import coverImg from './../../../public/img/footer/higher-power.jpg'
+import coverImg from '../../../../public/img/footer/higher-power.jpg'
 import {
   CirclePlus,
   ListVideo,

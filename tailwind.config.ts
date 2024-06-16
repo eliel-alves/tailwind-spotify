@@ -17,6 +17,9 @@ const config: Config = {
       fontFamily: {
         custom: ['Circular', 'sans-serif'],
       },
+      spacing: {
+        '218': '13.625rem',
+      },
     },
   },
   plugins: [],

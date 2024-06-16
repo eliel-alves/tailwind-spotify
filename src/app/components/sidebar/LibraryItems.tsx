@@ -4,7 +4,7 @@ import { BsFillPinAngleFill } from 'react-icons/bs'
 
 import { capitalize } from '@/utils/capitalize'
 
-const defaultPath = '/img/library-items'
+const defaultPath = '/img/library-items/'
 
 interface LibraryItem {
   name: string
@@ -17,169 +17,169 @@ const libraryItems: LibraryItem[] = [
   {
     name: 'Coldplay',
     type: 'artist',
-    image: `${defaultPath}/coldplay.webp`,
+    image: 'coldplay.webp',
   },
   {
     name: 'Memórias 3 (Ao Vivo)',
     type: 'album',
     author: 'Eli Soares',
-    image: `${defaultPath}/memorias-3.webp`,
+    image: 'memorias-3.webp',
   },
   {
     name: '📻 flahBack',
     type: 'playlist',
     author: 'Pegas',
-    image: `${defaultPath}/flashback.webp`,
+    image: 'flashback.webp',
   },
   {
     name: 'This Is Michael Jackson',
     type: 'playlist',
     author: 'Spotify',
-    image: `${defaultPath}/this-is-michael-jackson.jpg`,
+    image: 'this-is-michael-jackson.jpg',
   },
   {
     name: 'Michael Jackson',
     type: 'artist',
-    image: `${defaultPath}/michael-jackson.webp`,
+    image: 'michael-jackson.webp',
   },
   {
     name: 'FILIPE MARTINS REFERENCES',
     type: 'playlist',
     author: 'Filipe Martins',
-    image: `${defaultPath}/filipe-martins-experience.jpg`,
+    image: 'filipe-martins-experience.jpg',
   },
   {
     name: '📼 Elph Retro',
     type: 'playlist',
     author: 'Pegas',
-    image: `${defaultPath}/elph-retro.webp`,
+    image: 'elph-retro.webp',
   },
   {
     name: 'Djesse Vol. 4',
     type: 'album',
     author: 'Jacob Collier',
-    image: `${defaultPath}/djesse-vol-4.webp`,
+    image: 'djesse-vol-4.webp',
   },
   {
     name: 'Jacob Collier',
     type: 'artist',
-    image: `${defaultPath}/jacob-collier.webp`,
+    image: 'jacob-collier.webp',
   },
   {
     name: 'Boiolinha',
     type: 'playlist',
     author: 'josi.alves369',
-    image: `${defaultPath}/boiolinha.jpg`,
+    image: 'boiolinha.jpg',
   },
   {
     name: 'Eliel + 8 others',
     type: 'playlist',
     author: 'Spotify',
-    image: `${defaultPath}/eliel-others.jpg`,
+    image: 'eliel-others.jpg',
   },
   {
     name: 'What Are We Waiting For?',
     type: 'album',
     author: 'for KING & COUNTRY',
-    image: `${defaultPath}/what-are-we-waiting-for.webp`,
+    image: 'what-are-we-waiting-for.webp',
   },
   {
     name: 'Relax eletro',
     type: 'playlist',
     author: 'Sega',
-    image: `${defaultPath}/relax-eletro.jpg`,
+    image: 'relax-eletro.jpg',
   },
   {
     name: '🌌 Atmosphere',
     type: 'playlist',
     author: 'Pegas',
-    image: `${defaultPath}/atmosphere.webp`,
+    image: 'atmosphere.webp',
   },
   {
     name: 'Ainda em 2020',
     type: 'album',
     author: 'Paulo Cesar Baruk',
-    image: `${defaultPath}/ainda-em-2020.webp`,
+    image: 'ainda-em-2020.webp',
   },
   {
     name: 'Good Musics',
     type: 'playlist',
     author: 'Eliel Alves',
-    image: `${defaultPath}/god-musics.jpg`,
+    image: 'good-musics.jpg',
   },
   {
     name: 'Memórias 2 (Ao Vivo)',
     type: 'album',
     author: 'Eli Soares',
-    image: `${defaultPath}/memorias-2.webp`,
+    image: 'memorias-2.webp',
   },
   {
     name: 'Black & Soul Gospel',
     type: 'playlist',
     author: 'Peterson Andrade',
-    image: `${defaultPath}/black-soul-gospel.webp`,
+    image: 'black-soul-gospel.webp',
   },
   {
     name: '💣 EDeMe',
     type: 'playlist',
     author: 'Pegas',
-    image: `${defaultPath}/edeme.webp`,
+    image: 'edeme.webp',
   },
   {
     name: 'Awake',
     type: 'album',
     author: 'Hillsong Worship',
-    image: `${defaultPath}/awake.webp`,
+    image: 'awake.webp',
   },
   {
     name: '🎧 Elph Music',
     type: 'playlist',
     author: 'Pegas',
-    image: `${defaultPath}/elph-musics.webp`,
+    image: 'elph-musics.webp',
   },
   {
     name: 'Chill Tracks',
     type: 'playlist',
     author: 'Spotify',
-    image: `${defaultPath}/chill-tracks.jpg`,
+    image: 'chill-tracks.jpg',
   },
   {
     name: 'Advento Tour - Ao Vivo em São Paulo',
     type: 'album',
     author: 'Projeto Sola',
-    image: `${defaultPath}/advento-tour.webp`,
+    image: 'advento-tour.webp',
   },
   {
     name: 'Dance Hits',
     type: 'playlist',
     author: 'Spotify',
-    image: `${defaultPath}/dance-hits.jpg`,
+    image: 'dance-hits.jpg',
   },
   {
     name: 'San Holo Radio',
     type: 'playlist',
     author: 'Spotify',
-    image: `${defaultPath}/san-holo-radio.jpg`,
+    image: 'san-holo-radio.jpg',
   },
   {
     name: 'Hillsong Young & Free',
     type: 'artist',
-    image: `${defaultPath}/hillsong-yef.webp`,
+    image: 'hillsong-yef.webp',
   },
   {
     name: 'Hillsong Worship',
     type: 'artist',
-    image: `${defaultPath}/hillsong-worship.webp`,
+    image: 'hillsong-worship.webp',
   },
   {
     name: 'Hillsong UNITED',
     type: 'artist',
-    image: `${defaultPath}/hillsong-united.webp`,
+    image: 'hillsong-united.webp',
   },
   {
     name: 'San Holo',
     type: 'artist',
-    image: `${defaultPath}/san-holo.webp`,
+    image: 'san-holo.webp',
   },
 ]
 
@@ -238,7 +238,7 @@ export const LibraryItems = () => {
             className="flex cursor-pointer gap-3 rounded-md p-2 hover:bg-zinc-900 active:bg-black"
           >
             <Image
-              src={item.image}
+              src={defaultPath.concat(item.image)}
               alt=""
               className={item.type === 'artist' ? 'rounded-full' : 'rounded'}
               width={48}
